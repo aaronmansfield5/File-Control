@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.IO;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +11,6 @@ namespace File_Control
         static bool ChangeFile(string fileName, string changed)
         {
             string[] readData = File.ReadAllText("File Control Changes.txt").Split(";");
-            bool done = false;
             foreach(var container in readData)
             {
                 List<string> data = container.Split("=").ToList();
@@ -27,32 +26,27 @@ namespace File_Control
                         writer.Write(toSave);
                         writer.Close();
                     }
-                    done = true;
-                    return done;
+                    return true;
                 }
             }
-            if(done == false)
+            if (File.ReadAllText("File Control Changes.txt").Length == 0)
             {
-                if (File.ReadAllText("File Control Changes.txt").Length == 0)
+                using (StreamWriter writer = new StreamWriter("File Control Changes.txt"))
                 {
-                    using (StreamWriter writer = new StreamWriter("File Control Changes.txt"))
-                    {
-                        writer.Write($"{fileName}={changed}={DateTime.Now}");
-                        writer.Close();
-                    }
-                    return true;
+                    writer.Write($"{fileName}={changed}={DateTime.Now}");
+                    writer.Close();
                 }
-                else
-                {
-                    using (StreamWriter writer = new StreamWriter("File Control Changes.txt", true))
-                    {
-                        writer.Write($";{fileName}={changed}={DateTime.Now}");
-                        writer.Close();
-                    }
-                    return true;
-                }
+                return true;
             }
-            return done;
+            else
+            {
+                using (StreamWriter writer = new StreamWriter("File Control Changes.txt", true))
+                {
+                    writer.Write($";{fileName}={changed}={DateTime.Now}");
+                    writer.Close();
+                }
+                return true;
+            }
         }
         static string GetDetails(string fName)
         {
