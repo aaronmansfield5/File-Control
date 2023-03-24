@@ -10,17 +10,12 @@ File-Control is a console-based application that allows users to efficiently man
 
 ## Table of Contents
 
-- [Getting Started](#getting-started)
-  - [Installation](#installation)
+- [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
 - [Contributing](#contributing)
 - [Contact](#contact)
 - [Acknowledgments](#acknowledgments)
-
-## Getting Started
-
-To get a local copy up and running, follow these simple steps.
 
 ### Installation
 
