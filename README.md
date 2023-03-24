@@ -58,9 +58,9 @@ Contributions are what make the open-source community such an amazing place to l
 5. Open a pull request
 
 ### Contact
-aaronmansfield5 - [**email**](mailto:aaronmansfield12@gmail.com)
+[**Email Me**](mailto:aaronmansfield12@gmail.com)
 
-Project Link: **https://github.com/aaronmansfield5/File-Control**
+[**My Page**](https://github.com/aaronmansfield5)
 
 ### Acknowledgments
 [**img.shields.io**](https://img.shields.io/) for providing the project badges
