@@ -14,10 +14,9 @@ File-Control is a console-based application that allows users to efficiently man
 - [Usage](#usage)
 - [Features](#features)
 - [Contributing](#contributing)
-- [Contact](#contact)
 - [Acknowledgments](#acknowledgments)
 
-### Installation
+## Installation
 
 1. Clone the repo
    ```sh
@@ -26,14 +25,14 @@ File-Control is a console-based application that allows users to efficiently man
    
 2. Open the solution in your preferred IDE
 
-### Usage
+## Usage
 To use the File-Control application, follow these steps:
 
 1. Compile the project and run the application
 2. Choose from the available options (create, edit, search, or delete)
 3. Follow the on-screen instructions to complete your desired action
 
-### Features
+## Features
 
 - User-friendly interface with personalization options
 - Choice of creating, editing, searching, or deleting individual files
@@ -43,7 +42,7 @@ To use the File-Control application, follow these steps:
 - Exception handling to ensure smooth operation
 - Additional enhancement features for an improved user experience
 
-### Contributing
+## Contributing
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
 1. Fork the project
@@ -52,17 +51,12 @@ Contributions are what make the open-source community such an amazing place to l
 4. Push to the branch (`git push origin feature/YourFeature`)
 5. Open a pull request
 
-### Contact
-[**Email Me**](mailto:aaronmansfield12@gmail.com)
-
-[**My Page**](https://github.com/aaronmansfield5)
-
-### Acknowledgments
+## Acknowledgments
 [**img.shields.io**](https://img.shields.io/) for providing the project badges
 
 The open-source community for their continuous support and inspiration
 
-### Future Enhancements
+## Future Enhancements
 We are always looking for ways to improve File-Control. Here are some ideas for future enhancements:
 
 - Implement a graphical user interface (GUI) for a more intuitive user experience
