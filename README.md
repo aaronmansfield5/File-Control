@@ -63,4 +63,3 @@ We are always looking for ways to improve File-Control. Here are some ideas for 
 - Add support for more file formats and extensions
 - Implement file search functionality based on file content or metadata
 - Add file versioning and history tracking for easier file management
-- Integrate with
